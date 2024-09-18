@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8503841978165905083
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Terrain Graph
+  m_Shader: {fileID: -6465566751694194690, guid: ce0fbfb668719934d952ff7ecb8e629c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _DISABLE_SSR_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2225
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo_Texture:
+        m_Texture: {fileID: 2800000, guid: 4adb16ab46abc164dbb187eb622e3f13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Area_Mask:
+        m_Texture: {fileID: 2800000, guid: f7c97a322009d144f917b13f9afbef66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_Texture:
+        m_Texture: {fileID: 2800000, guid: 4adb16ab46abc164dbb187eb622e3f13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Height_Map:
+        m_Texture: {fileID: 2800000, guid: f7c97a322009d144f917b13f9afbef66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 26011a71b552778478c29092cb5ba643, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: bd0c1e8e36df4de4b8ae61c795259e84, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: bd0c1e8e36df4de4b8ae61c795259e84, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _R:
+        m_Texture: {fileID: 2800000, guid: 70bca9851ac68e24da1eb9656aa8156f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ripples_Mask:
+        m_Texture: {fileID: 2800000, guid: f7c97a322009d144f917b13f9afbef66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ripples_Texture:
+        m_Texture: {fileID: 2800000, guid: 70bca9851ac68e24da1eb9656aa8156f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sand_Mask:
+        m_Texture: {fileID: 2800000, guid: 26011a71b552778478c29092cb5ba643, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _main_Tex:
+        m_Texture: {fileID: 2800000, guid: 4adb16ab46abc164dbb187eb622e3f13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask:
+        m_Texture: {fileID: 2800000, guid: 26011a71b552778478c29092cb5ba643, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddPrecomputedVelocity: 0
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _Bend_Power: 0
+    - _BlendMode: 0
+    - _ConservativeDepthOffsetEnable: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _DepthOffsetEnable: 0
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _ExcludeFromTUAndAA: 0
+    - _Float: 6.9
+    - _Frequency: 270
+    - _Noise_Power: 3.5
+    - _Noise_Size: 24.8
+    - _Noise_Speed: -0.02
+    - _NonSandSmooth: 0.1
+    - _Normals_Power: 0.008
+    - _OpaqueCullMode: 2
+    - _RayTracing: 0
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _Ripples_Rotate: -6.8
+    - _Sand_Density: 1600
+    - _Sand_Mask_Power: 0.3
+    - _Sand_Normal_Power: 0.008
+    - _Sand_Normals_Power: 0.008
+    - _Sand_Shine_Power: 0.55
+    - _Sand_Shine_Size: 1700
+    - _Sand_Size: 1900
+    - _Sand_Smoothstep: 0.53
+    - _Sand_Speed: 1
+    - _Shine: 0.5
+    - _ShineSpeed: 12
+    - _Shine_Power: 0.55
+    - _SinFreq: 1
+    - _Size: 1900
+    - _Sp: -0.2
+    - _Speed: -0.05
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 15
+    - _StencilWriteMaskMV: 41
+    - _SupportDecals: 1
+    - _SurfaceType: 0
+    - _Test: 0.35
+    - _Tile: 5.6
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UV_Scale: 1
+    - _UseShadowThreshold: 0
+    - _Wave_Angle: -6.8
+    - _Wave_Power: 1
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    - _cam_dist: 78033
+    - _frenel: 1
+    m_Colors:
+    - _Base_Color: {r: 0.8018868, g: 0.59078324, b: 0.40472585, a: 1}
+    - _Color: {r: 0.8018868, g: 0.59078324, b: 0.40472588, a: 1}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RippleTile: {r: 2.5, g: 2, b: 0, a: 0}
+    - _Ripple_Speed: {r: -0.04, g: -0.05, b: 0, a: 0}
+    - _SandColor: {r: 0.96447307, g: 0.40535548, b: 0.077339835, a: 1}
+    - _Sand_Shine_Color: {r: 0.735849, g: 0.2057883, b: 0, a: 1}
+    - _Sand_Smoothstep: {r: 0, g: 1, b: 0, a: 0}
+    - _Shine_Color: {r: 0.735849, g: 0.2057883, b: 0, a: 1}
+    - _Tile: {r: 2.5, g: 2, b: 0, a: 0}
+    - _Wave_Speed: {r: -0.04, g: -0.05, b: 0, a: 0}
+  m_BuildTextureStacks: []
